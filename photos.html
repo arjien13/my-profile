@@ -1,0 +1,73 @@
+<!-- Document Type Declaration -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Page Title -->
+  <title>Photo Gallery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <!-- Link to External Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Internal Stylesheet -->
+  <style>
+    /* Folders Viewing Styles */
+  #folders-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    height: 480px;
+    overflow-y: auto;
+  }
+
+  .back-button {
+    text-decoration: none; /* remove underline */
+    color: #333; /* set text color */
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px; /* add padding */
+    border: none; /* remove border */
+    font-size: 16px; /* set font size */
+    cursor: pointer; /* change cursor shape */
+    transition: transform 0.2s; /* add transition */
+  }
+
+  .back-button:hover {
+    transform: scale(1.1);
+  }
+
+</style>
+ 
+</head>
+<body>
+  <!-- Gallery Container -->
+  <div class="gallery-container">
+    <!-- Folders Container -->
+    <div class="folders-container" id="folders-container"></div>
+    
+    <!-- Photos Container -->
+    <div class="photos-container" id="photos-container"></div>
+  </div>
+  
+  <!-- Another Gallery Container -->
+  <div class="gallery-container">
+    <!-- Opened Folder Container -->
+    <div class="folders-container" id="opened-folder-container"></div>
+  </div>
+
+  <!-- Upload Section -->
+  <div class="upload-section" style="display: flex; align-items: center; justify-content: center; position: fixed; bottom: 0; left: 0; width: 100%; padding: 10px;">
+    <!-- Create Folder Button -->
+    <button id="create-folder-btn" style="background-color: rgba(0, 0, 0, 0.3); color: #F5F5F5; padding: 10px 20px; border-radius: 5px; cursor: pointer; height: 40px; font-size: 18px; font-weight: 300; margin-left: 10px; border: none;">Create Folder</button>
+  </div>
+
+  <div style="margin-top: 10px;">
+    <a href="index.html" class="back-button" style="background-color: rgba(0, 0, 0, 0.3); color: #F5F5F5; padding: 10px 20px; border-radius: 5px; margin-left: 10px; float: left; font-weight: 300; font-size: 18px;">Back</a>
+</div>
+
+  <!-- Script Tag -->
+  <script type="text/javascript" src="Photo.js" defer></script>
+
+  
+
+</body>
+</html>
