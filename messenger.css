@@ -179,17 +179,18 @@
           
     }
     .ninja-thoughts {
-      position: absolute;
-      width: 30vw;
-      height: 20vh;
-      font-size: 2vw;
-      top: 45vh;
-      left: 50vw;
-      transform: translate(-50%, -50%);
-      padding: 2vw;
-      box-sizing: border-box;
-      overflow: hidden;
-    }
+  position: absolute;
+  width: 30vw;
+  height: 30vw; /* Set width and height to the same value */
+  aspect-ratio: 1 / 1; /* Maintain a 1:1 aspect ratio */
+  font-size: 2vw;
+  top: 45vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  padding: 2vw;
+  box-sizing: border-box;
+  overflow: hidden;
+}
     .image:hover + .ninja-thoughts {
 
       opacity: 1;
