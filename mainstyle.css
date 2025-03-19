@@ -331,50 +331,53 @@ body {
 /****** thoughts ******/
 
 
-/****** BACK UP INCASE :-)
-/****** pointer ninja ******
-.pointer {
-  width: 2.5vw;
-  height: auto;
-  position: relative;
-  top: 68vh;
-  left: 58vw;
-  mix-blend-mode: multiply;
-}
+.pointer-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .pointer-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .pointer {
+    position: absolute;
+    width: 2.5vw;
+    height: auto;
+    top: 68vh;
+    left: 58vw;
+    mix-blend-mode: multiply;
+  }
+  
   .ninja-text {
     position: absolute;
-    top: 86vh;
-    left: 59vw;
-    transform: translate(-50%, -50%);
-    cursor: pointer;
-    font-size: .8vw;
-    color: #fffdfd;
+    font-size: 0.8vw;
+    color: #3f3d3d;
     font-weight: 500;
+    top: 75vh;
+    left: 56vw;
   }
-/****** pointer ninja ******/
-
-
-/****** pointer dragon ******
-.pointer1 {
-  width: 2.5vw;
-  height: auto;
-  position: absolute;
-  top: 31.5vh;
-  left: 91vw;
-  mix-blend-mode: multiply;
-}
+  
+  .pointer1 {
+    position: absolute;
+    width: 2.5vw;
+    height: auto;
+    top: 21vh;
+    left: 91vw;
+    mix-blend-mode: multiply;
+  }
+  
   .dragon-text {
     position: absolute;
-    top: 40vh;
-    left: 92vw;
-    transform: translate(-50%, -50%);
-    cursor: pointer;
-    font-size: .8vw;
+    font-size: 0.8vw;
     color: #ec0f0f;
     font-weight: 500;
+    top: 28vh;
+    left: 89vw;
   }
-/****** pointer dragon ******/
-
 
 
 
