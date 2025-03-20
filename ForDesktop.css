@@ -75,5 +75,7 @@
     z-index: 1;
     cursor: pointer;
   }
- 
+ .pointer-container {
+    background-color: red; /* temporary test style */
+  }
 }
