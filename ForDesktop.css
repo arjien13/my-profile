@@ -1,5 +1,6 @@
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 800px) and (max-width: 5000px) and (min-height: 600px) and (max-height: 4000px) {
   .pointer-container {
+    background-image: linear-gradient(to right, #808080, #666666);
     position: relative;
     width: 100vw;
     height: 100vh;
@@ -74,7 +75,5 @@
     z-index: 1;
     cursor: pointer;
   }
-  .pointer-container {
-    background-color: red; /* temporary test style */
-  }
+ 
 }
