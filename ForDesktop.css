@@ -6,7 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    background-color: red !important;
   }
   
   .pointer {
@@ -75,7 +75,5 @@
     z-index: 1;
     cursor: pointer;
   }
- .pointer-container {
-    background-color: red; /* temporary test style */
-  }
+
 }
