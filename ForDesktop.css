@@ -1,4 +1,4 @@
-@media only screen and (min-width: 800px) and (max-width: 5000px) and (min-height: 600px) and (max-height: 4000px) {
+@media only screen and (min-width: 600px) {
   .pointer-container {
     position: relative;
     width: 100vw;
