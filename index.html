@@ -8,9 +8,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=BC+Minimal&display=swap" rel="stylesheet">
+  
   <link rel="stylesheet" href="ForDesktop.css">
   <link rel="stylesheet" href="mainstyle.css">
-  
 </head>
 <body>
   
@@ -100,15 +100,13 @@
       <span class="close-button">&times;</span>
       <h2>Comments</h2>
       <form id="comment-form">
-        <input type="text" id="name" placeholder="Name">
-        <textarea id="comment" placeholder="Write a comment..."></textarea>
-        <button id="submit-comment">Submit</button>
+        <input type="text" id="name" placeholder="Name" style="width: 100%; height: 30px;">
+        <textarea id="comment" placeholder="Write a comment..." style="width: 100%; height: 50px;"></textarea>
+        <button id="submit-comment" style="position: relative; left: 7.5vw; width: 80px; height: 30px; font-size: 14px; display: flex; justify-content: center; align-items: center;">Submit</button>
+
       </form>
       <div id="comments-container"></div>
     </div>
-    
-  
-
    
 
   <script>
