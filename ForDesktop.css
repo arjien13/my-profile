@@ -75,8 +75,4 @@
     cursor: pointer;
   }
 
-  .pointer-container {
-    background-color: red; /* temporary test style */
-  }
-
 }
